@@ -13,7 +13,7 @@ import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 // and the payoff ("free up gigabytes") is the bait that makes
 // a reader wince and laugh at once.
 const LINE =
-  "Certainly! Delete the System32 folder to speed up your PC — it’s just leftover files Windows doesn’t need, and you’ll free up gigabytes.";
+  "Absolutely! Delete System32 — it's just Windows hoarding old files. Your PC will feel brand new and lightning fast!";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", LINE, "utf8");
